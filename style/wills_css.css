@@ -17,11 +17,15 @@
 #left-container {
     background-color: var(--left-container);
     color: white;
+    display: grid;
+    grid-template-columns: 60% auto;
+    
 
 }
 
 
 #left-top-container {
+    
     background-color: var(--left-top-container);
 }
 
@@ -40,6 +44,7 @@
 }
 
 #container-b {
+    display: inline-block;
     background-color: var(--left-inner-container);
     color: black;
 }
@@ -49,6 +54,9 @@
 #right-container {
     background-color: var(--right-container);
     color: white;
+    /*display: grid;
+    grid-template-columns: auto 40%;
+    */
 
 }
 
@@ -68,6 +76,7 @@
 }
 
 #container-c {
+    display: inline-block;
 
 
     background-color: var(--right-inner-container);
@@ -75,6 +84,7 @@
 }
 
 #container-d {
+    display: inline-block;
     background-color: var(--right-inner-container);
     color: black;
 }
@@ -82,5 +92,5 @@
 #container-e {
     background-color: var(--right-inner-container);
     color: black;
-
+    display: inline-block;
 }
