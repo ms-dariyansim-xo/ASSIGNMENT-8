@@ -18,20 +18,20 @@
     box-sizing:  none;
 }
 
+body{
+    display: grid;
+    grid-template-columns: auto auto;
+    
+}
+
 /* Left Container */
 
-#main-container{
-    display: grid;
-    grid-template-columns: 60% auto;
-    border: 1px solid black;
-}
 
 #left-container {
     background-color: var(--left-container);
     color: white;
     border: 1px solid black;
-    height: 500px;
-
+    height: 600px;
 }
 
 
@@ -75,6 +75,8 @@
     background-color: var(--right-container);
     color: white;
     border: 1px solid black;
+
+    
 }
 
 #right-top-container {
