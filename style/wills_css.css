@@ -12,33 +12,44 @@
 
 /* Change everything below here for the assignment */
 
+*{
+    padding: 0;
+    margin: o;
+    box-sizing:  none;
+}
+
 /* Left Container */
+
+
 
 #left-container {
     background-color: var(--left-container);
     color: white;
-    display: grid;
-    grid-template-columns: 60% ;
-    
+    width: 60%;
+    border: 1px solid black;
 
 }
 
 
 #left-top-container {
+    border: 1px solid black;
+    height: 50px;
     width: 50%;
-    height: 50%;
-
+    padding: 10px;
     background-color: var(--left-top-container);
 }
 
 #left-bottom-container {
+    border: 1px solid black;
     background-color: var(--left-top-container);
     width: 50%;
     height: 50%;
+    padding: 5px;
 
 }
 
 #container-a {
+    
     color: black;
     background-color: var(--left-inner-container);
     display: inline-block;
@@ -56,30 +67,34 @@
 /* Right Container */
 
 #right-container {
+    border: 1px solid black;
     background-color: var(--right-container);
     color: white;
+    
+
+    
 
 }
 
 #right-top-container {
     background-color: var(--right-top-container);
+    border: 1px solid black;
 
 }
 
 #right-middle-container {
     background-color: var(--right-top-container);
-
+    border: 1px solid black;
 }
 
 #right-bottom-container {
     background-color: var(--right-top-container);
+    border: 1px solid black;
 
 }
 
 #container-c {
     display: inline-block;
-
-
     background-color: var(--right-inner-container);
     color: black;
 }
