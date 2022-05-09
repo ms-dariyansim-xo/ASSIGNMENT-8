@@ -27,6 +27,8 @@
     color: white;
     width: 60%;
     border: 1px solid black;
+    height: 500px;
+    display: grid;
 
 }
 
@@ -59,50 +61,55 @@
 }
 
 #container-b {
-    display: inline-block;
+    
     background-color: var(--left-inner-container);
     color: black;
+    display: inline-block;
 }
 
 /* Right Container */
 
 #right-container {
-    border: 1px solid black;
     background-color: var(--right-container);
     color: white;
-    
-
-    
-
+    width: 60%;
+    border: 1px solid black;
+    margin-left: 500px;
 }
 
 #right-top-container {
     background-color: var(--right-top-container);
     border: 1px solid black;
+    height: 40px;
+    width: 40px;
+
 
 }
 
 #right-middle-container {
     background-color: var(--right-top-container);
     border: 1px solid black;
+    height: 20px;
+    width: 100px;
 }
 
 #right-bottom-container {
     background-color: var(--right-top-container);
     border: 1px solid black;
-
+    height: 100px;
+    width: 50px;
 }
 
 #container-c {
-    display: inline-block;
     background-color: var(--right-inner-container);
     color: black;
+    display: inline-block;
 }
 
 #container-d {
-    display: inline-block;
     background-color: var(--right-inner-container);
     color: black;
+    display: inline-block;
 }
 
 #container-e {
