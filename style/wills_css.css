@@ -18,19 +18,23 @@
     background-color: var(--left-container);
     color: white;
     display: grid;
-    grid-template-columns: 60% auto;
+    grid-template-columns: 60% ;
     
 
 }
 
 
 #left-top-container {
+    width: 50%;
+    height: 50%;
 
     background-color: var(--left-top-container);
 }
 
 #left-bottom-container {
     background-color: var(--left-top-container);
+    width: 50%;
+    height: 50%;
 
 }
 
