@@ -120,6 +120,9 @@ body{
     background-color: var(--right-inner-container);
     color: black;
     display: inline-block;
+    padding-right: 60px;
+    padding-bottom: 60px;
+    margin-left: 25%;
 }
 
 #container-d {
