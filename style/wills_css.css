@@ -88,7 +88,7 @@ body{
 #right-middle-container {
     background-color: var(--right-top-container);
     height: 20px;
-    width: 200px;
+    width: 250px;
     margin-top: 200px;
     margin-left: -150px;
 }
