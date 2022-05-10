@@ -25,6 +25,7 @@ body{
     margin-left: 100px;
     margin-right: 100px;
     margin-bottom: 100px;
+    column-gap: -10px;
 }
 
 /* Left Container */
